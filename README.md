@@ -88,17 +88,6 @@ This extension will solve the issue this issue with a simple `!` + the name of w
 ## Requirements
 `Python 3.5–3.8`, `Tensorflow 2` and `Keras`
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
 ## Known Issues
 
 No known issues so far.
