@@ -1,0 +1,41 @@
+{"Keras 2.4.0 Accuracy":{
+    "prefix": "!acc",
+    "body": [
+        "opt = tf.keras.optimizers.SGD(learning_rate=${1:0.01})",
+        "m = tf.keras.metrics.Accuracy()",
+        "model.compile(loss='${2:mse}', optimizer=opt, metrics=[m])"
+    ]
+},
+"Keras 2.4.0 BinaryAccuracy":{
+    "prefix": "!binaryacc",
+    "body": [
+        "opt = tf.keras.optimizers.SGD(learning_rate=${1:0.01})",
+        "m = tf.keras.metrics.BinaryAccuracy()",
+        "model.compile(loss='${2:mse}', optimizer=opt, metrics=[m])"
+    ]
+},
+"Keras 2.4.0 CategoricalAccuracy":{
+    "prefix": "!catagoricalacc",
+    "body": [
+        "opt = tf.keras.optimizers.SGD(learning_rate=${1:0.01})",
+        "m = tf.keras.metrics.CategoricalAccuracy()",
+        "model.compile(loss='${2:mse}', optimizer=opt, metrics=[m])"
+    ]
+},
+"Keras 2.4.0 TopKCategoricalAccuracy ":{
+    "prefix": "!topkacc",
+    "body": [
+        "opt = tf.keras.optimizers.SGD(learning_rate=${1:0.01})",
+        "m = tf.keras.metrics.TopKCategoricalAccuracy(k=${2:1})",
+        "model.compile(loss='${2:mse}', optimizer=opt, metrics=[m])"
+    ]
+},
+"Keras 2.4.0 SparseTopKCategoricalAccuracy":{
+    "prefix": "!sparseacc",
+    "body": [
+        "opt = tf.keras.optimizers.SGD(learning_rate=${1:0.01})",
+        "m = tf.keras.metrics.SparseTopKCategoricalAccuracy(k=${2:1})",
+        "model.compile(loss='${2:mse}', optimizer=opt, metrics=[m])"
+    ]
+}
+}

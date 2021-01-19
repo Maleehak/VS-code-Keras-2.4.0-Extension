@@ -1,0 +1,22 @@
+{"Keras 2.4.0 initial setup":{
+    "prefix": "!setup",
+    "body": [
+        "import numpy as np",
+        "import tensorflow as tf",
+        "from tensorflow import keras"
+    ],
+    "description": "Initial setup for Keras 2.4.0" 
+},
+"Keras 2.4.0 image dataset":{
+    "prefix": "!datasetimg",
+    "body": "dataset = keras.preprocessing.image_dataset_from_directory(${1:directory}, batch_size=${2:size}, image_size=(${3:width},${4:height}))",
+    "description": "Load custom image dataset from directory"
+    
+},
+"Keras 2.4.0 text dataset":{
+    "prefix": "!datasettext",
+    "body":  "dataset = keras.preprocessing.text_dataset_from_directory(${1: directory}, batch_size=${2: size})",
+    "description": "Load custom textual dataset from directory"
+    
+}
+}

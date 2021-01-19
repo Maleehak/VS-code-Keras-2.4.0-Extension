@@ -1,0 +1,41 @@
+{"Keras 2.4.0 SparseCategoricalCrossentropy":{
+    "prefix": "!sparse",
+    "body": "loss_fn = keras.losses.SparseCategoricalCrossentropy()"
+},
+"Keras 2.4.0 BinaryCrossentropy":{
+    "prefix": "!bin",
+    "body": "loss_fn = keras.losses.BinaryCrossentropy()"
+},
+"Keras 2.4.0 CategoricalCrossentropy":{
+    "prefix": "!cat",
+    "body": "loss_fn = keras.losses.CategoricalCrossentropy()"
+},
+"Keras 2.4.0 Poisson":{
+    "prefix": "!poisson",
+    "body": "loss_fn = keras.losses.Poisson()"
+},
+"Keras 2.4.0 binary_crossentropy":{
+    "prefix": "!binloss",
+    "body": "loss = tf.keras.losses.binary_crossentropy(y_true, y_pred)"
+},
+"Keras 2.4.0 categorical_crossentropy":{
+    "prefix": "!catloss",
+    "body": "loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred)"
+},
+"Keras 2.4.0 sparse_categorical_crossentropy ":{
+    "prefix": "!sparseloss",
+    "body": "loss = tf.keras.losses.sparse_categorical_crossentropy(y_true, y_pred)"
+},
+"Keras 2.4.0 poisson ":{
+    "prefix": "!poiloss",
+    "body": "loss = tf.keras.losses.poisson(y_true, y_pred)"
+},
+"Keras 2.4.0 KLDivergence ":{
+    "prefix": "!kld",
+    "body": "loss_fn = keras.losses.KLDivergence()"
+},
+"Keras 2.4.0 kullback_leibler_divergence ":{
+    "prefix": "!kld",
+    "body": "loss = tf.keras.losses.kullback_leibler_divergence(y_true, y_pred)"
+}
+}

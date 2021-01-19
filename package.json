@@ -1,0 +1,66 @@
+{
+    "name": "pks",
+    "displayName": "Keras 2.4.0 Snippets",
+    "description": "Code snippets for Keras 2.4.0",
+    "version": "1.0.0",
+    "publisher": "Maleeha Khalid",
+    "repository": {
+        "type": "git",
+        "directory": "https://github.com/Maleehak/VS-code-Keras-2.4.0-Extension.git"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/code-snippets.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/datasets.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/accuracy.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/applications.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/optimizers.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/losses.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/vgg16.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/vgg19.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/inception.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/xeception.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/resnet.json"
+            }
+        ]
+    }
+}

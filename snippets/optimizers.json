@@ -1,0 +1,57 @@
+{"Keras 2.4.0 SGD":{
+    "prefix": "!sgd",
+    "body": [
+        "opt = tf.keras.optimizers.SGD(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 Adam":{
+    "prefix": "!adam",
+    "body": [
+        "opt = tf.keras.optimizers.Adam(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 RMSprop":{
+    "prefix": "!rmsprop",
+    "body": [
+        "opt = tf.keras.optimizers.RMSprop(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 Adadelta":{
+    "prefix": "!adadelta",
+    "body": [
+        "opt = tf.keras.optimizers.Adadelta(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 Adagrad":{
+    "prefix": "!adagrad",
+    "body": [
+        "opt = tf.keras.optimizers.Adagrad(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 Adamax":{
+    "prefix": "!adamax",
+    "body": [
+        "opt = tf.keras.optimizers.Adamax(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 Nadam":{
+    "prefix": "!nadam",
+    "body": [
+        "opt = tf.keras.optimizers.Nadam(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+},
+"Keras 2.4.0 Ftrl":{
+    "prefix": "!ftrl",
+    "body": [
+        "opt = tf.keras.optimizers.Ftrl(learning_rate=${1:0.01})",
+        "model.compile(loss='${2:categorical_crossentropy}', optimizer=opt)"
+    ]
+}
+}
