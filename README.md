@@ -3,6 +3,10 @@
 I found it tedious to rewrite the basic Keras code over and over again. Thats why I built this code snippets to save time.
 This extension will solve the issue this issue with a simple `!` + the name of whatever you are looking for.
 
+<p align="center">
+  <img src="demo.gif" alt="Demo" />
+</p>
+
 ## Commands
 
 ### Main Commands
