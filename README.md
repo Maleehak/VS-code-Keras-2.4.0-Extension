@@ -38,15 +38,31 @@ This extension will solve the issue this issue with a simple `!` + the name of w
 | !nadam |Keras 2.4.0 Nadam  |
 | !ftrl | Keras 2.4.0 Ftrl |
 
+### Commands for using Keras Losses
+
+| **Command** | **Description **                                                                                    |
+| ----------- | ------------------------------------------------------------------------------------------------- |
+| !sparse    |SparseCategoricalCrossentropy  |
+| !bin | BinaryCrossentropy|
+| !cat | CategoricalCrossentropy|
+| !poisson     |  Poisson |
+| !binloss  | binary_crossentropy|
+| !catloss |categorical_crossentropy |
+| !sparseloss |sparse_categorical_crossentropy |
+| !poiloss | poisson |
+| !kld | KLDivergence |
+| !kld | kullback_leibler_divergence |
+
+
 ### Commands for using Keras Accuracy
 
 | **Command** | **Description **                                                                                    |
 | ----------- | ------------------------------------------------------------------------------------------------- |
-| !acc    | Keras 2.4.0 Accuracy  |
-| !binaryacc | Keras 2.4.0 BinaryAccuracy |
-| !catagoricalacc| Keras 2.4.0 CategoricalAccuracy |
-| !topkacc     | Keras 2.4.0 TopKCategoricalAccuracy |
-| !sparseacc | Keras 2.4.0 SparseTopKCategoricalAccuracy |
+| !acc    | Accuracy  |
+| !binaryacc | BinaryAccuracy |
+| !catagoricalacc|  CategoricalAccuracy |
+| !topkacc     | TopKCategoricalAccuracy |
+| !sparseacc | SparseTopKCategoricalAccuracy |
 
 
 ### Commands for using Keras deep learning algorithms
