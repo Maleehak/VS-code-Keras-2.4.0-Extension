@@ -1,5 +1,6 @@
 # Keras 2.4.0 Code Snippets
 
+#### [Download from marketplace](https://marketplace.visualstudio.com/items?itemName=MaleehaKhalid.pks) or install directly on vs code
 I found it tedious to rewrite the basic Keras code over and over again. Thats why I built this code snippets to save time.
 This extension will solve the issue this issue with a simple `!` + the name of whatever you are looking for.
 
