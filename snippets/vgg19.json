@@ -33,6 +33,6 @@
         "\n",
         "history = model.fit(traindata,epochs=10,steps_per_epoch =500,validation_data = testdata ,validation_steps=50,shuffle=True,verbose=1)"
     ],
-    "description": "Vgg 16 transfer learning boiler plate " 
+    "description": "Vgg 19 transfer learning boiler plate " 
  }
 }
