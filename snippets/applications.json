@@ -63,7 +63,7 @@
     "description":"Extracts features from an arbitrary intermediate layer with VGG19"
     },
 "Keras 2.4.0 InceptionV3":{
-    "prefix": "inceptionv3",
+    "prefix": "!inceptionv3",
     "body":  [
         "from tensorflow.keras.applications.inception_v3 import InceptionV3",
         "from tensorflow.keras.preprocessing import image",
