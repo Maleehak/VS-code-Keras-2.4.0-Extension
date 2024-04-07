@@ -1,7 +1,7 @@
 # Keras 2.4.0 Code Snippets for VS code
 
-[![version](https://vsmarketplacebadge.apphb.com/version/MaleehaKhalid.pks.svg)](https://vsmarketplacebadge.apphb.com/version/MaleehaKhalid.pks.svg)
-[![installs](https://vsmarketplacebadge.apphb.com/installs-short/MaleehaKhalid.pks.svg)](https://vsmarketplacebadge.apphb.com/installs-short/MaleehaKhalid.pks.svg)
+[![version](https://vsmarketplacebadges.dev/version/MaleehaKhalid.pks.svg)](https://vsmarketplacebadges.dev/version/MaleehaKhalid.pks.svg)
+[![installs](https://vsmarketplacebadges.dev/installs-short/MaleehaKhalid.pks.svg)](https://vsmarketplacebadges.dev/installs-short/MaleehaKhalid.pks.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 I found it tedious to rewrite the basic Keras code over and over again. Thats why I built this code snippets to save time.
